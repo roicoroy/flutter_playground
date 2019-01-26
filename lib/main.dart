@@ -10,12 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.red),
       home: MyHomePage(),
     );
   }
 }
-
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -25,6 +24,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return new NimaActor("assets/Hop.nima", alignment:Alignment.center, fit:BoxFit.contain, animation:"idle");
+    return new NimaActor("assets/hoe2.nma", alignment:Alignment.center, fit:BoxFit.contain, animation:"idle");
   }
 }
