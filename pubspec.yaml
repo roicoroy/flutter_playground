@@ -16,9 +16,32 @@ dependencies:
   flutter:
     sdk: flutter
   nima:
+  flare_flutter:
+  flare_dart:
+  spritewidget:
+  intl:
+  uuid:
+  redux: 
+  flutter_redux: "^0.5.0"
+  redux_logging: "^0.3.0"
+  cupertino_icons: ^0.1.0
+  scoped_model:
+  http: "^0.11.3+16"
+  shared_preferences: "^0.4.2"
+  rxdart: "^0.17.0"
+  font_awesome_flutter:
+  flutter_masked_text:
+  # map_view: "^0.0.12"
+  location: 
+  image_picker: "^0.4.5"
+  mime: "^0.9.6"
+  url_launcher: "^3.0.2"
+  flutter_localizations:
+    sdk: flutter
  
 
 dev_dependencies:
+  random_pk:
   flutter_test:
     sdk: flutter
 
@@ -28,20 +51,36 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-   - assets/g-logo.png
-   - assets/google_g_logo.png
-   - assets/background.jpg
-   - assets/flow-zone.jpg
-   - assets/logo.png
-   - assets/SlidingSolo.nmj
-  #  - assets/SlidingSolo.oob.nmj
-  #  - assets/SlidingSolo.png
-   - assets/SlidingSolo.nma
-   - assets/Old Man.nima
-   - assets/Old Man.png
-   - assets/Hop.nima
-   - assets/Hop.png
-
+  - assets/avatar.png
+  - assets/backdrop.png
+  - assets/video1_thumb.png
+  - assets/video4_thumb.png
+  - assets/video3_thumb.png
+  - assets/video2_thumb.png
+  #  - assets/g-logo.png
+  #  - assets/google_g_logo.png
+  - assets/food.jpg
+  - assets/background.jpg
+  #  - assets/flow-zone.jpg
+  #  - assets/logo.png
+  #  - assets/SlidingSolo.nmj
+  #  - assets/Flow Glas Demo.nima
+  #  - assets/Flow Glas Demo.png
+  #  - assets/SlidingSolo.nma
+  #  - assets/Old Man.nima
+  #  - assets/Old Man.png
+  #  - assets/Change Color Example.flr
+  #  - assets/background.flr
+  #  - assets/cocktails-sparks.nima
+  #  - assets/cocktails-sparks/cocktails-sparks.png
+  #  - assets/sky/sky.nima
+  #  - assets/Waitress/Waitress.nima
+  #  - assets/Waitress/Waitress.png
+  #  - assets/flow/flow 2.nima
+  #  - assets/flow/flow 2.png
+  #  - assets/food.jpg
+  #  - assets/background.jpg
+  #  - assets/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 
@@ -53,21 +92,8 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.io/custom-fonts/#from-packages
-
-
-
-
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/Oswald-Bold.ttf
+          weight: 700
